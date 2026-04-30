@@ -107,11 +107,9 @@ D:\OBD-KYRSACH\TourAgency\TourAgency\bin\Debug\net8.0-windows\runtimes\win-x64\n
 D:\OBD-KYRSACH\TourAgency\TourAgency\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\OBD-KYRSACH\TourAgency\TourAgency\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.csproj.AssemblyReference.cache
-D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\App.g.cs
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency_MarkupCompile.cache
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency_MarkupCompile.lref
-D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\MainWindow.baml
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.g.resources
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.GeneratedMSBuildEditorConfig.editorconfig
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.AssemblyInfoInputs.cache
@@ -123,3 +121,11 @@ D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\refint\TourAgency.
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.pdb
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.genruntimeconfig.cache
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\ref\TourAgency.dll
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\TourAgency.sourcelink.json
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\UserAccountWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\UserAccountWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\MainWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\RegistrationWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\RegistrationWindow.baml
