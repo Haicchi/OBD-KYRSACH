@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OBD-KYRSACH\\TourAgency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429182031_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TourAgency\\Migrations\\20260429182031_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429180739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TourAgency\\Migrations\\20260429180739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\tourtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\tourtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\town.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\town.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\overseaspassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\overseaspassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260429182031_InitialCreate.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
+              "RelativeToolTip": "TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:20:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TourAgency\\AppDbContext.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\AppDbContext.cs",
+              "RelativeToolTip": "TourAgency\\AppDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:31:49.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260429180739_InitialCreate.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
+              "RelativeToolTip": "TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:07:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TourType.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\TourType.cs",
+              "RelativeDocumentMoniker": "TourAgency\\TourType.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\TourType.cs",
+              "RelativeToolTip": "TourAgency\\TourType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:31:03.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Town.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Town.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Town.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Town.cs",
+              "RelativeToolTip": "TourAgency\\Town.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:28:51.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Order.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Order.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Order.cs",
+              "RelativeToolTip": "TourAgency\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:29:31.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Staff.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Staff.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Staff.cs",
+              "RelativeToolTip": "TourAgency\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:27:10.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Tour.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Tour.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Tour.cs",
+              "RelativeToolTip": "TourAgency\\Tour.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:27:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OverseasPassport.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
+              "RelativeDocumentMoniker": "TourAgency\\OverseasPassport.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
+              "RelativeToolTip": "TourAgency\\OverseasPassport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:26:28.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Hotel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Hotel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Hotel.cs",
+              "RelativeToolTip": "TourAgency\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:27:48.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Food.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Food.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Food.cs",
+              "RelativeToolTip": "TourAgency\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:31:18.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Country.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Country.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Country.cs",
+              "RelativeToolTip": "TourAgency\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:29:17.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Client.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
+              "RelativeToolTip": "TourAgency\\Client.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:26:49.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Account.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Account.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Account.cs",
+              "RelativeToolTip": "TourAgency\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:25:22.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\MainWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\MainWindow.xaml",
+              "RelativeToolTip": "TourAgency\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T17:24:06.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TourAgency\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TourAgency\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:24:04.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
