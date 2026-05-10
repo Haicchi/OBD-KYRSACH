@@ -2,12 +2,14 @@
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 
 
 namespace TourAgency.Services
 {
     public class AuthService
     {
+        public static Account CurrentUser { get; private set; }
         public bool Register(string name, string email, string phone, string password, out string message)
         {
             message = string.Empty;
@@ -16,7 +18,18 @@ namespace TourAgency.Services
                 message = "Усі обов'язкові поля повинні бути заповнені!";
                 return false;
             }
-
+            var nameParts = name.Trim().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (nameParts.Length != 3)
+            {
+                message = "ПІБ має складатися з трьох слів (Прізвище Ім'я По батькові)!";
+                return false;
+            }
+            var phoneRegex = new Regex(@"^\+\d{12}$");
+            if (!phoneRegex.IsMatch(phone))
+            {
+                message = "Номер телефону має бути у форматі +380000000000 (13 символів)!";
+                return false;
+            }
             if (email.Count(c => c == '@') != 1)
             {
                 message = "Email повинен містити рівно один символ '@'!";
@@ -65,36 +78,32 @@ namespace TourAgency.Services
         }
 
         
+        
         public Account Login(string email, string password, out string message)
         {
-            try
+            using (var db = new AppDbContext())
             {
-                using (var db = new AppDbContext())
+                var account = db.Accounts.FirstOrDefault(a => a.Email == email);
+                if (account != null && HashPassword(password, account.Salt) == account.Password)
                 {
-                    var account = db.Accounts.FirstOrDefault(a => a.Email == email);
-
-                    if (account != null)
-                    {
-                      
-                        string hashedInput = HashPassword(password, account.Salt);
-
-                        if (hashedInput == account.Password)
-                        {
-                            message = "Вхід успішний!";
-                            return account;
-                        }
-                    }
-
-                    message = "Невірний Email або пароль.";
-                    return null;
+                    CurrentUser = account; 
+                    message = "Вхід успішний!";
+                    return account;
                 }
-            }
-            catch (Exception ex)
-            {
-                message = $"Помилка з'єднання: {ex.Message}";
+                message = "Невірний Email або пароль.";
                 return null;
             }
         }
+        public static bool IsClientProfileFilled()
+        {
+            if (CurrentUser == null) return false;
+
+            using (var db = new AppDbContext())
+            {
+                return db.Clients.Any(c => c.IDAccount == CurrentUser.ID);
+            }
+        }
+        public static void Logout() => CurrentUser = null;
 
         private static string GenerateSalt(int length = 32)
         {

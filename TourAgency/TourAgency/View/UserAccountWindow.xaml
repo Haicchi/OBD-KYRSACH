@@ -108,6 +108,19 @@
                         <TextBlock Text="{Binding UserName}" 
                                    FontSize="22" FontWeight="Bold" Foreground="#1B5E20"
                                    HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                        <StackPanel Visibility="{Binding IsProfileIncomplete, Converter={StaticResource BoolToVis}}" Margin="0,10,0,10">
+                            <Border Background="#FFF3E0" CornerRadius="12" Padding="15">
+                                <StackPanel>
+                                    <TextBlock Text="✈️ Майже готово!" FontWeight="Bold" Foreground="#E65100" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Додайте паспортні дані, щоб бронювати тури." 
+                           FontSize="12" Foreground="#EF6C00" TextAlignment="Center" TextWrapping="Wrap" Margin="0,5"/>
+                                    <Button Content="Заповнити профіль" 
+                        Command="{Binding OpenCompleteProfileCommand}"
+                        Style="{StaticResource ModernButtonStyle}"
+                        Background="#FF9800" Height="40" Margin="0,10,0,0"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
 
                         <Button Content="Вийти з профілю" 
                                 Command="{Binding LogoutCommand}"

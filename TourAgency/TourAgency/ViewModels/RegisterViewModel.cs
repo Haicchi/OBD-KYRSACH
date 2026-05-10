@@ -67,11 +67,16 @@ namespace TourAgency.ViewModels
         }
         private void ExecuteOpenLogin(object window)
         {
-            if (window is Window w)
-            {
-                w.Close();
-            }
+
+            var currentWindow = window as Window;
+            var LoginWin = new TourAgency.View.LoginWindow();
+            LoginWin.Owner = Application.Current.MainWindow;
+            LoginWin.DataContext = new LoginViewModel();
+
+            LoginWin.Show();
+            currentWindow?.Close();
         }
+        
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string name = null)

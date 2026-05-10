@@ -129,3 +129,9 @@ D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\MainWindow.ba
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\RegistrationWindow.g.cs
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\RegistrationWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\LoginWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\App.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\LoginWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\CompleteProfileWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\CompleteProfileWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll

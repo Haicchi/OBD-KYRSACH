@@ -2,6 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
+using TourAgency.Services;
 
 
 namespace TourAgency.ViewModels
@@ -10,7 +11,13 @@ namespace TourAgency.ViewModels
     {
         private bool _isLoggedIn = false;
         private string _userName = "Гість";
-
+        private bool _isProfileIncomplete;
+        public bool IsProfileIncomplete
+        {
+            get => _isProfileIncomplete;
+            set { _isProfileIncomplete = value; OnPropertyChanged(); }
+        }
+        public ICommand OpenCompleteProfileCommand { get; }
         public bool IsLoggedIn
         {
             get => _isLoggedIn;
@@ -41,25 +48,53 @@ namespace TourAgency.ViewModels
 
         public UserAccountViewModel()
         {
-            IsLoggedIn = false;
+  
 
             OpenLoginCommand = new RelayCommand(obj => OpenLogin());
             LogoutCommand = new RelayCommand(obj => Logout());
             CloseCommand = new RelayCommand(obj => CloseWindow(obj));
             RegisterCommand = new RelayCommand(obj => OpenRegister());
+            OpenCompleteProfileCommand = new RelayCommand(obj => OpenCompleteProfile());
+            UpdateState();
         }
 
         private void OpenLogin()
         {
-            MessageBox.Show("Відкриваємо вікно входу...");
-            IsLoggedIn = true;
-            UserName = "Кирило";
+            var loginWin = new TourAgency.View.LoginWindow();
+            loginWin.ShowDialog();
+            UpdateState();
+        }
+
+        public void UpdateState()
+        {
+            if (AuthService.CurrentUser != null)
+            {
+                UserName = AuthService.CurrentUser.Name;
+                IsLoggedIn = true;
+                IsProfileIncomplete = !AuthService.IsClientProfileFilled();
+            }
+            else
+            {
+                UserName = "Гість";
+                IsLoggedIn = false;
+            }
+            OnPropertyChanged(nameof(IsProfileIncomplete));
+            OnPropertyChanged(nameof(UserName));
+            OnPropertyChanged(nameof(IsLoggedIn));
+            OnPropertyChanged(nameof(IsNotLoggedIn));
         }
 
         private void Logout()
         {
-            IsLoggedIn = false;
-            UserName = "Гість";
+            AuthService.Logout();
+            UpdateState();
+        }
+        private void OpenCompleteProfile()
+        {
+            var win = new TourAgency.View.CompleteProfileWindow();
+            win.DataContext = new CompleteProfileViewModel();
+            win.ShowDialog();
+            UpdateState();
         }
 
         private void CloseWindow(object window)

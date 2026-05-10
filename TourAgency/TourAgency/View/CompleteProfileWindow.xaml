@@ -1,0 +1,75 @@
+﻿<Window x:Class="TourAgency.View.CompleteProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Закордонний паспорт" Height="650" Width="450"
+        WindowStartupLocation="CenterScreen" Background="#F1F8E9">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="25">
+            <TextBlock Text="ДАНІ ЗАКОРДОННОГО ПАСПОРТА" 
+                       FontSize="18" FontWeight="Bold" Foreground="#2E7D32" 
+                       HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <TextBlock Text="Адреса проживання:" FontWeight="SemiBold" Foreground="#555"/>
+            <TextBox Text="{Binding Address}" Style="{StaticResource TourInputStyle}"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Ім'я (латиниця):" FontWeight="SemiBold" Foreground="#555"/>
+                    <TextBox Text="{Binding NameTranslit}" Style="{StaticResource TourInputStyle}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock Text="Прізвище (латиниця):" FontWeight="SemiBold" Foreground="#555"/>
+                    <TextBox Text="{Binding SurnameTranslit}" Style="{StaticResource TourInputStyle}"/>
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="Номер паспорта:" FontWeight="SemiBold" Foreground="#555"/>
+            <TextBox Text="{Binding PassportNumber}" Style="{StaticResource TourInputStyle}"/>
+
+            <TextBlock Text="Стать (Male/Female):" FontWeight="SemiBold" Foreground="#555"/>
+            <TextBox Text="{Binding Sex}" Style="{StaticResource TourInputStyle}"/>
+
+            <TextBlock Text="Дата народження:" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,5"/>
+            <DatePicker SelectedDate="{Binding BirthDate}" Margin="0,0,0,15"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Дата видачі:" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,5"/>
+                    <DatePicker SelectedDate="{Binding IssueDate}" Margin="0,0,0,15"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock Text="Дійсний до:" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,5"/>
+                    <DatePicker SelectedDate="{Binding ExpiryDate}" Margin="0,0,0,15"/>
+                </StackPanel>
+            </Grid>
+
+            <Button Content="Зберегти та стати клієнтом" 
+                    Command="{Binding SaveCommand}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                    Background="#4CAF50" Foreground="White" Height="45" FontSize="15" FontWeight="Bold"
+                    Style="{StaticResource ModernButtonStyle}" Margin="0,10,0,0">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.2" Color="#1B5E20"/>
+                </Button.Effect>
+            </Button>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
