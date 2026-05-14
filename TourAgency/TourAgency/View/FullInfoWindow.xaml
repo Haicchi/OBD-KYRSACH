@@ -1,0 +1,41 @@
+﻿<Window x:Class="TourAgency.View.FullInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Детальна інформація" Height="520" Width="400"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Background="#F1F8E9">
+    <AdornerDecorator>
+        <Border Padding="25" Background="White" Margin="15" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Opacity="0.1"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="КАРТКА КЛІЄНТА" FontSize="20" FontWeight="Bold" 
+                           Foreground="#2E7D32" HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                <UniformGrid Columns="2">
+                    <TextBlock Text="Прізвище / Ім'я (LAT):" Foreground="Gray" Margin="0,8"/>
+                    <TextBlock Text="{Binding PassportNames}" FontWeight="Bold" VerticalAlignment="Center"/>
+
+                    <TextBlock Text="Національність:" Foreground="Gray" Margin="0,8"/>
+                    <TextBlock Text="{Binding Nationality}" VerticalAlignment="Center"/>
+
+                    <TextBlock Text="Стать:" Foreground="Gray" Margin="0,8"/>
+                    <TextBlock Text="{Binding Sex}" VerticalAlignment="Center"/>
+
+                    <TextBlock Text="Дійсний до:" Foreground="Gray" Margin="0,8"/>
+                    <TextBlock Text="{Binding ExpiryDateInfo}" VerticalAlignment="Center"/>
+
+                    <TextBlock Text="Паспорт №:" Foreground="Gray" Margin="0,8"/>
+                    <TextBlock Text="{Binding PassportNumber}" VerticalAlignment="Center"/>
+                </UniformGrid>
+                <Separator Margin="0,20" Background="#A5D6A7" Height="1.5"/>
+                <TextBlock Text="Адреса проживання:" Foreground="Gray" Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding ClientAddress}" TextWrapping="Wrap" FontWeight="SemiBold" FontSize="13"/>
+                <Button Content="Закрити" Margin="0,35,0,0" Height="40"
+                        Click="Close_Click" 
+                        Style="{StaticResource ModernButtonStyle}" 
+                        Background="#66BB6A"/>
+            </StackPanel>
+        </Border>
+    </AdornerDecorator>
+</Window>

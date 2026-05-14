@@ -5,6 +5,19 @@
              StartupUri="View/MainWindow.xaml">
     <Application.Resources>
 
+        <ControlTemplate x:Key="CommonErrorTemplate">
+            <StackPanel>
+                <Border BorderBrush="#D32F2F" BorderThickness="1.5" CornerRadius="8">
+                    <AdornedElementPlaceholder x:Name="controlWithError"/>
+                </Border>
+                <TextBlock Text="{Binding [0].ErrorContent}" 
+                           Foreground="#D32F2F" 
+                           FontSize="10" 
+                           Margin="5,2,0,0"
+                           FontWeight="Bold"/>
+            </StackPanel>
+        </ControlTemplate>
+
         <Style x:Key="TourInputStyle" TargetType="TextBox">
             <Setter Property="Padding" Value="10,8"/>
             <Setter Property="Margin" Value="0,0,0,15"/>
@@ -22,6 +35,9 @@
                             <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
                         </Border>
                         <ControlTemplate.Triggers>
+                            <Trigger Property="Validation.HasError" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#D32F2F"/>
+                            </Trigger>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="BorderBrush" Value="#4CAF50"/>
                             </Trigger>
@@ -35,7 +51,12 @@
             </Setter>
         </Style>
 
+        <Style x:Key="ValidatedTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource TourInputStyle}">
+            <Setter Property="Validation.ErrorTemplate" Value="{StaticResource CommonErrorTemplate}"/>
+        </Style>
+
         <Style x:Key="TourPasswordStyle" TargetType="PasswordBox">
+            <Setter Property="Validation.ErrorTemplate" Value="{StaticResource CommonErrorTemplate}"/>
             <Setter Property="Padding" Value="10,8"/>
             <Setter Property="Margin" Value="0,0,0,15"/>
             <Setter Property="FontSize" Value="14"/>
@@ -52,6 +73,9 @@
                             <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
                         </Border>
                         <ControlTemplate.Triggers>
+                            <Trigger Property="Validation.HasError" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#D32F2F"/>
+                            </Trigger>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="BorderBrush" Value="#4CAF50"/>
                             </Trigger>
@@ -64,6 +88,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
         <Style x:Key="ModernButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="14"/>
@@ -73,9 +98,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border x:Name="border" 
-                        Background="{TemplateBinding Background}" 
-                        CornerRadius="12" 
-                        BorderThickness="0">
+                                Background="{TemplateBinding Background}" 
+                                CornerRadius="12" 
+                                BorderThickness="0">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>

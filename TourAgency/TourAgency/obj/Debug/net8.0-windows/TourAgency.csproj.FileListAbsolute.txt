@@ -135,3 +135,17 @@ D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\LoginWindow.b
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\CompleteProfileWindow.baml
 D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\CompleteProfileWindow.g.cs
 D:\OBD-KYRSACH\TourAgency\TourAgency\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\FullInfoWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\FullInfoWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTourWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTourWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddHotelWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddHotelWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddCountryWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddFoodWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTourTypeWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTownWindow.baml
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddCountryWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddFoodWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTourTypeWindow.g.cs
+D:\OBD-KYRSACH\TourAgency\TourAgency\obj\Debug\net8.0-windows\View\AddTownWindow.g.cs

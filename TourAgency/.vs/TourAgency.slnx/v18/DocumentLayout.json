@@ -3,48 +3,76 @@
   "WorkspaceRootPath": "D:\\OBD-KYRSACH\\TourAgency\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\fullinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\fullinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\helpers\\numericinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\helpers\\numericinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\useraccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\useraccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\useraccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\useraccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\completeprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\completeprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\completeprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\completeprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\completeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\completeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\useraccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\useraccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\useraccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\useraccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\useraccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\useraccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\fullinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\fullinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\overseaspassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\overseaspassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\completeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\completeprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\helpers\\letterinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\helpers\\letterinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\helpers\\numericinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\helpers\\numericinputbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,19 +91,7 @@
       "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_8PR58J1_SQLEXPRESS01/TourAgencyDB/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\view\\useraccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\view\\useraccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|solutionrelative:touragency\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DB60997-73D7-D651-AB06-F94AA4B05D0E}|TourAgency\\TourAgency.csproj|d:\\obd-kyrsach\\touragency\\touragency\\helpers\\passwordboxhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,219 +174,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NumericInputBehavior.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\NumericInputBehavior.cs",
-              "RelativeDocumentMoniker": "TourAgency\\Helpers\\NumericInputBehavior.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\NumericInputBehavior.cs",
-              "RelativeToolTip": "TourAgency\\Helpers\\NumericInputBehavior.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowAUAAAAAAAAAAAAAAA==",
+              "Title": "CompleteProfileWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TourAgency\\View\\CompleteProfileWindow.xaml.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml.cs",
+              "RelativeToolTip": "TourAgency\\View\\CompleteProfileWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T18:26:06.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthServices.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Services\\AuthServices.cs",
-              "RelativeDocumentMoniker": "TourAgency\\Services\\AuthServices.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Services\\AuthServices.cs",
-              "RelativeToolTip": "TourAgency\\Services\\AuthServices.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwB0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T19:31:04.096Z",
+              "WhenOpened": "2026-05-13T19:15:34.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserAccountWindow.xaml",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\UserAccountWindow.xaml",
-              "RelativeDocumentMoniker": "TourAgency\\View\\UserAccountWindow.xaml",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\UserAccountWindow.xaml",
-              "RelativeToolTip": "TourAgency\\View\\UserAccountWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-30T15:36:18.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistrationWindow.xaml",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml",
-              "RelativeDocumentMoniker": "TourAgency\\View\\RegistrationWindow.xaml",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml",
-              "RelativeToolTip": "TourAgency\\View\\RegistrationWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-30T17:40:55.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserAccountViewModel.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\UserAccountViewModel.cs",
-              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\UserAccountViewModel.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\UserAccountViewModel.cs",
-              "RelativeToolTip": "TourAgency\\ViewModels\\UserAccountViewModel.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T15:55:30.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\App.xaml",
-              "RelativeDocumentMoniker": "TourAgency\\App.xaml",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\App.xaml",
-              "RelativeToolTip": "TourAgency\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-30T15:48:12.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "TourAgency\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T19:10:53.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CompleteProfileViewModel.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
-              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
-              "RelativeToolTip": "TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T17:19:32.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CompleteProfileWindow.xaml",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml",
-              "RelativeDocumentMoniker": "TourAgency\\View\\CompleteProfileWindow.xaml",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml",
-              "RelativeToolTip": "TourAgency\\View\\CompleteProfileWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-10T17:25:01.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OverseasPassport.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
-              "RelativeDocumentMoniker": "TourAgency\\OverseasPassport.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
-              "RelativeToolTip": "TourAgency\\OverseasPassport.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:26:28.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "TourAgency\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T15:28:26.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "TourAgency\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwD8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T15:49:00.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Client.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
-              "RelativeDocumentMoniker": "TourAgency\\Client.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
-              "RelativeToolTip": "TourAgency\\Client.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:26:49.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TourAgency\\View\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "TourAgency\\View\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T15:49:48.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "TourAgency\\View\\LoginWindow.xaml",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml",
-              "RelativeToolTip": "TourAgency\\View\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-10T15:48:07.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegistrationWindow.xaml.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TourAgency\\View\\RegistrationWindow.xaml.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml.cs",
-              "RelativeToolTip": "TourAgency\\View\\RegistrationWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T17:58:27.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "dbo.Accounts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_8PR58J1_SQLEXPRESS01/TourAgencyDB/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "dbo.Accounts [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-05-10T15:34:51.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "UserAccountWindow.xaml.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\UserAccountWindow.xaml.cs",
               "RelativeDocumentMoniker": "TourAgency\\View\\UserAccountWindow.xaml.cs",
@@ -383,33 +199,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20260430192837_AddSaltToAccount.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
-              "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
-              "RelativeToolTip": "TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T19:28:38.06Z",
+              "DocumentIndex": 3,
+              "Title": "UserAccountWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\UserAccountWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\View\\UserAccountWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\UserAccountWindow.xaml",
+              "RelativeToolTip": "TourAgency\\View\\UserAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-30T15:36:18.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PasswordBoxHelper.cs",
-              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\PasswordBoxHelper.cs",
-              "RelativeDocumentMoniker": "TourAgency\\Helpers\\PasswordBoxHelper.cs",
-              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\PasswordBoxHelper.cs",
-              "RelativeToolTip": "TourAgency\\Helpers\\PasswordBoxHelper.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FullInfoWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\FullInfoWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\View\\FullInfoWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\FullInfoWindow.xaml*",
+              "RelativeToolTip": "TourAgency\\View\\FullInfoWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T18:27:05.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FullInfoWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\FullInfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TourAgency\\View\\FullInfoWindow.xaml.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\FullInfoWindow.xaml.cs",
+              "RelativeToolTip": "TourAgency\\View\\FullInfoWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T17:42:24.235Z",
+              "WhenOpened": "2026-05-13T18:55:09.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
+              "Title": "CompleteProfileWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\View\\CompleteProfileWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\CompleteProfileWindow.xaml",
+              "RelativeToolTip": "TourAgency\\View\\CompleteProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T17:25:01.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAccountViewModel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\UserAccountViewModel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\UserAccountViewModel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\UserAccountViewModel.cs",
+              "RelativeToolTip": "TourAgency\\ViewModels\\UserAccountViewModel.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwGYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:55:30.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Account.cs",
               "RelativeDocumentMoniker": "TourAgency\\Account.cs",
@@ -422,7 +278,206 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OverseasPassport.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
+              "RelativeDocumentMoniker": "TourAgency\\OverseasPassport.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\OverseasPassport.cs",
+              "RelativeToolTip": "TourAgency\\OverseasPassport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:26:28.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompleteProfileViewModel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
+              "RelativeToolTip": "TourAgency\\ViewModels\\CompleteProfileViewModel.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwGQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:19:32.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "TourAgency\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADwv0wAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:10:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\View\\RegistrationWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml",
+              "RelativeToolTip": "TourAgency\\View\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-30T17:40:55.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TourAgency\\View\\RegistrationWindow.xaml.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "TourAgency\\View\\RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T17:58:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LetterInputBehavior.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\LetterInputBehavior.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Helpers\\LetterInputBehavior.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\LetterInputBehavior.cs",
+              "RelativeToolTip": "TourAgency\\Helpers\\LetterInputBehavior.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:08:50.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Services\\AuthServices.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Services\\AuthServices.cs",
+              "RelativeToolTip": "TourAgency\\Services\\AuthServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:31:04.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\App.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\App.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\App.xaml",
+              "RelativeToolTip": "TourAgency\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-30T15:48:12.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Client.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Client.cs",
+              "RelativeToolTip": "TourAgency\\Client.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T17:26:49.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NumericInputBehavior.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\NumericInputBehavior.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Helpers\\NumericInputBehavior.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\NumericInputBehavior.cs",
+              "RelativeToolTip": "TourAgency\\Helpers\\NumericInputBehavior.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T18:26:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "TourAgency\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:28:26.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TourAgency\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TourAgency\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwD8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T15:49:00.081Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TourAgency\\View\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "TourAgency\\View\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T15:49:48.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "TourAgency\\View\\LoginWindow.xaml",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\LoginWindow.xaml",
+              "RelativeToolTip": "TourAgency\\View\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T15:48:07.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.Accounts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_8PR58J1_SQLEXPRESS01/TourAgencyDB/True/SqlTable/dbo.Accounts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_8PR58J1_SQLEXPRESS01/TourAgencyDB/True/SqlTable/dbo.Accounts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-10T15:34:51.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260430192837_AddSaltToAccount.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
+              "RelativeToolTip": "TourAgency\\Migrations\\20260430192837_AddSaltToAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:28:38.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PasswordBoxHelper.cs",
+              "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\PasswordBoxHelper.cs",
+              "RelativeDocumentMoniker": "TourAgency\\Helpers\\PasswordBoxHelper.cs",
+              "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Helpers\\PasswordBoxHelper.cs",
+              "RelativeToolTip": "TourAgency\\Helpers\\PasswordBoxHelper.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T17:42:24.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "TourAgency.csproj",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\TourAgency.csproj",
               "RelativeDocumentMoniker": "TourAgency\\TourAgency.csproj",
@@ -430,12 +485,11 @@
               "RelativeToolTip": "TourAgency\\TourAgency.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-30T15:36:03.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T15:36:03.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TourAgency\\View\\MainWindow.xaml.cs",
@@ -443,24 +497,22 @@
               "RelativeToolTip": "TourAgency\\View\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAIBJwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:24:04.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:24:04.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TourAgency\\View\\MainWindow.xaml",
               "ToolTip": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\View\\MainWindow.xaml",
               "RelativeToolTip": "TourAgency\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T17:24:06.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:24:06.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\RelayCommand.cs",
               "RelativeDocumentMoniker": "TourAgency\\RelayCommand.cs",
@@ -468,12 +520,11 @@
               "RelativeToolTip": "TourAgency\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T15:26:18.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T15:26:18.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TourAgency\\AppDbContext.cs",
@@ -481,12 +532,11 @@
               "RelativeToolTip": "TourAgency\\AppDbContext.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAcwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:31:49.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:31:49.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "20260429180739_InitialCreate.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
               "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260429180739_InitialCreate.cs",
@@ -497,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "TourType.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\TourType.cs",
               "RelativeDocumentMoniker": "TourAgency\\TourType.cs",
@@ -505,12 +555,11 @@
               "RelativeToolTip": "TourAgency\\TourType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:31:03.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:31:03.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Town.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Town.cs",
               "RelativeDocumentMoniker": "TourAgency\\Town.cs",
@@ -518,12 +567,11 @@
               "RelativeToolTip": "TourAgency\\Town.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:28:51.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:28:51.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "20260429182031_InitialCreate.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
               "RelativeDocumentMoniker": "TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
@@ -531,12 +579,11 @@
               "RelativeToolTip": "TourAgency\\Migrations\\20260429182031_InitialCreate.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T18:20:31.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T18:20:31.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Order.cs",
               "RelativeDocumentMoniker": "TourAgency\\Order.cs",
@@ -544,12 +591,11 @@
               "RelativeToolTip": "TourAgency\\Order.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwBEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:29:31.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:29:31.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Staff.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Staff.cs",
               "RelativeDocumentMoniker": "TourAgency\\Staff.cs",
@@ -557,12 +603,11 @@
               "RelativeToolTip": "TourAgency\\Staff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:27:10.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:27:10.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Tour.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Tour.cs",
               "RelativeDocumentMoniker": "TourAgency\\Tour.cs",
@@ -570,12 +615,11 @@
               "RelativeToolTip": "TourAgency\\Tour.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAIBJwAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:27:31.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:27:31.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Hotel.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Hotel.cs",
               "RelativeDocumentMoniker": "TourAgency\\Hotel.cs",
@@ -583,12 +627,11 @@
               "RelativeToolTip": "TourAgency\\Hotel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:27:48.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:27:48.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Food.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Food.cs",
               "RelativeDocumentMoniker": "TourAgency\\Food.cs",
@@ -596,12 +639,11 @@
               "RelativeToolTip": "TourAgency\\Food.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:31:18.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:31:18.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Country.cs",
               "DocumentMoniker": "D:\\OBD-KYRSACH\\TourAgency\\TourAgency\\Country.cs",
               "RelativeDocumentMoniker": "TourAgency\\Country.cs",
@@ -609,8 +651,7 @@
               "RelativeToolTip": "TourAgency\\Country.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:29:17.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T17:29:17.276Z"
             }
           ]
         }

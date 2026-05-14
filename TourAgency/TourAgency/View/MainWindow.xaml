@@ -8,11 +8,12 @@
         Title="Tour Agency - Подорожуй з нами" Height="700" Width="1100" 
         WindowStartupLocation="CenterScreen" ResizeMode="CanResize" MinHeight="600" MinWidth="900">
     <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
         <Style x:Key="MenuButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Foreground" Value="#2E7D32"/>
-            <!-- Темно-зелений текст -->
             <Setter Property="FontSize" Value="15"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Cursor" Value="Hand"/>
@@ -20,7 +21,6 @@
             <Setter Property="Padding" Value="15,8"/>
             <Setter Property="HorizontalContentAlignment" Value="Left"/>
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
-
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -30,17 +30,23 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#DCEDC8"/>
-              
                     <Setter Property="Foreground" Value="#1B5E20"/>
-            
                 </Trigger>
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="AdminButtonStyle" TargetType="Button" BasedOn="{StaticResource MenuButtonStyle}">
+            <Setter Property="Foreground" Value="#E65100"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFF3E0"/>
+                    <Setter Property="Foreground" Value="#BF360C"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
 
         <Style x:Key="GenreCheckBoxStyle" TargetType="CheckBox">
             <Setter Property="Cursor" Value="Hand"/>
@@ -55,35 +61,18 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-
-                            
                             <Grid Width="18" Height="18">
-                                <Border x:Name="Box" 
-                                CornerRadius="4" 
-                                BorderBrush="#8BC34A" 
-                                BorderThickness="2" 
-                                Background="White"/>
-
-                              
+                                <Border x:Name="Box" CornerRadius="4" BorderBrush="#8BC34A" BorderThickness="2" Background="White"/>
                                 <Viewbox x:Name="CheckMarkViewbox" Margin="3" Visibility="Collapsed">
-                                    <Path x:Name="CheckMark" 
-                                  Data="M 0,5 L 3,8 L 10,0" 
-                                  Stroke="White" 
-                                  StrokeThickness="2" 
-                                  StrokeStartLineCap="Round" 
-                                  StrokeEndLineCap="Round" 
-                                  StrokeLineJoin="Round"/>
+                                    <Path x:Name="CheckMark" Data="M 0,5 L 3,8 L 10,0" Stroke="White" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round"/>
                                 </Viewbox>
                             </Grid>
-
                             <ContentPresenter Grid.Column="1" Margin="10,0,0,0" VerticalAlignment="Center"/>
                         </Grid>
-
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="Box" Property="BorderBrush" Value="#689F38"/>
                             </Trigger>
-
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="Box" Property="Background" Value="#8BC34A"/>
                                 <Setter TargetName="Box" Property="BorderBrush" Value="#8BC34A"/>
@@ -96,7 +85,6 @@
             </Setter>
         </Style>
 
-
         <Style x:Key="AccountButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#F1F8E9"/>
             <Setter Property="BorderBrush" Value="#C5E1A5"/>
@@ -105,10 +93,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
-                                BorderBrush="{TemplateBinding BorderBrush}" 
-                                BorderThickness="{TemplateBinding BorderThickness}" 
-                                CornerRadius="15" Padding="10">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="15" Padding="10">
                             <Border.Effect>
                                 <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.15" Color="#33691E"/>
                             </Border.Effect>
@@ -128,31 +113,38 @@
 
     <Grid Background="#FAFAFA">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="220"/>
-   
+            <ColumnDefinition Width="240"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Border Background="White" BorderBrush="#EEEEEE" BorderThickness="0,0,1,0">
-            <StackPanel Margin="15">
-                <TextBlock Text="TOUR AGENCY" FontSize="20" FontWeight="Bold" Foreground="#2E7D32" Margin="0,0,0,25" HorizontalAlignment="Center"/>
+            <DockPanel Margin="15">
+                <StackPanel DockPanel.Dock="Top">
+                    <TextBlock Text="TOUR AGENCY" FontSize="20" FontWeight="Bold" Foreground="#2E7D32" Margin="0,0,0,25" HorizontalAlignment="Center"/>
 
-                <Button Style="{StaticResource MenuButtonStyle}" Content="🌍 Усі тури"/>
-                <Button Style="{StaticResource MenuButtonStyle}" Content="🔥 Гарячі пропозиції"/>
-                <Button Style="{StaticResource MenuButtonStyle}" Content="📜 Мої замовлення"/>
+                    <Button Style="{StaticResource MenuButtonStyle}" Content="🌍 Усі тури"/>
+                    <Button Style="{StaticResource MenuButtonStyle}" Content="🔥 Гарячі пропозиції"/>
+                    <Button Style="{StaticResource MenuButtonStyle}" Content="📜 Мої замовлення"/>
 
-                <Separator Margin="0,15" Background="#E0E0E0"/>
+                    <StackPanel Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}">
+                        <Separator Margin="0,15" Background="#E0E0E0"/>
+                        <TextBlock Text="АДМІНІСТРУВАННЯ" FontSize="11" FontWeight="Bold" Foreground="#FF8F00" Margin="5,0,0,10"/>
+                        <Button Style="{StaticResource AdminButtonStyle}" Content="➕ Додати тур" Command="{Binding AddTourCommand}"/>
+                        <Button Style="{StaticResource AdminButtonStyle}" Content="📊 Статистика"/>
+                    </StackPanel>
 
-                <TextBlock Text="Тип відпочинку" FontSize="12" FontWeight="Bold" Foreground="#9E9E9E" Margin="5,0,0,10"/>
-                <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Пляжний"/>
-                <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Гірськолижний"/>
-                <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Екскурсійний"/>
+                    <Separator Margin="0,15" Background="#E0E0E0"/>
 
-                <Button Style="{StaticResource AccountButtonStyle}" Command="{Binding OpenAccountCommand}" Content="Профіль" Margin="0,30,0,0" VerticalAlignment="Bottom"/>
-            </StackPanel>
+                    <TextBlock Text="Тип відпочинку" FontSize="12" FontWeight="Bold" Foreground="#9E9E9E" Margin="5,0,0,10"/>
+                    <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Пляжний"/>
+                    <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Гірськолижний"/>
+                    <CheckBox Style="{StaticResource GenreCheckBoxStyle}" Content="Екскурсійний"/>
+                </StackPanel>
+
+                <Button DockPanel.Dock="Bottom" Style="{StaticResource AccountButtonStyle}" Command="{Binding OpenAccountCommand}" Content="Профіль" VerticalAlignment="Bottom"/>
+            </DockPanel>
         </Border>
 
-        
         <Grid Grid.Column="1" Margin="20">
             <TextBlock Text="Оберіть свою наступну пригоду!" FontSize="24" Foreground="#333" FontWeight="Medium"/>
         </Grid>

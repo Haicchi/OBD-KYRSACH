@@ -1,0 +1,71 @@
+﻿<Window x:Class="TourAgency.View.AddHotelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Додати готель" Height="520" Width="400" 
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+
+    <Grid Background="#F1F8E9">
+        <Border Background="White" Margin="15" CornerRadius="15">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" Opacity="0.1" ShadowDepth="2"/>
+            </Border.Effect>
+
+            <StackPanel Margin="20">
+                <TextBlock Text="ДОДАВАННЯ ГОТЕЛЮ" FontSize="18" FontWeight="Bold" 
+                           Foreground="#2E7D32" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+                <TextBlock Text="Назва готелю" FontWeight="Bold" Foreground="#555"/>
+                <TextBox Text="{Binding HotelName, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,5,0,10" Height="30" VerticalContentAlignment="Center"/>
+
+                <TextBlock Text="Опис" FontWeight="Bold" Foreground="#555"/>
+                <TextBox Text="{Binding HotelDescription, UpdateSourceTrigger=PropertyChanged}" 
+                         Height="60" TextWrapping="Wrap" Margin="0,5,0,10" AcceptsReturn="True" 
+                         VerticalScrollBarVisibility="Auto"/>
+
+                <TextBlock Text="Адреса" FontWeight="Bold" Foreground="#555"/>
+                <TextBox Text="{Binding HotelAddress, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,5,0,10" Height="30" VerticalContentAlignment="Center"/>
+
+                <TextBlock Text="Рейтинг (1-5)" FontWeight="Bold" Foreground="#555"/>
+                <DockPanel Margin="0,5,0,10">
+                    <TextBlock Text="{Binding HotelRating}" Width="25" FontWeight="Bold" 
+                               DockPanel.Dock="Right" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <Slider Value="{Binding HotelRating}" Minimum="1" Maximum="5" 
+                            TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+                </DockPanel>
+
+                <TextBlock Text="Оберіть місто" FontWeight="Bold" Foreground="#555"/>
+                <ComboBox ItemsSource="{Binding AllTowns}" 
+                          SelectedItem="{Binding SelectedTown}" 
+                          DisplayMemberPath="Name" 
+                          Margin="0,5,0,20" Height="30" VerticalContentAlignment="Center"/>
+
+                <UniformGrid Columns="2">
+                    <!-- Видалили Click="Button_Click", залишили тільки Command -->
+                    <Button Content="ЗБЕРЕГТИ" 
+                            Command="{Binding ConfirmCommand}" 
+                            CommandParameter="Hotel"
+                            Height="40" Background="#4CAF50" Foreground="White" FontWeight="Bold" Margin="0,0,5,0">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button Content="СКАСУВАТИ" 
+                            Command="{Binding CloseCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                            Height="40" Background="#EF5350" Foreground="White" FontWeight="Bold" Margin="5,0,0,0">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </UniformGrid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

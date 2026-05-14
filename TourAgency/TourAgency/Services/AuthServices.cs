@@ -10,6 +10,7 @@ namespace TourAgency.Services
     public class AuthService
     {
         public static Account CurrentUser { get; private set; }
+        public static bool IsAdmin => CurrentUser?.Role?.Equals("Admin", StringComparison.OrdinalIgnoreCase) ?? false;
         public bool Register(string name, string email, string phone, string password, out string message)
         {
             message = string.Empty;
@@ -22,6 +23,13 @@ namespace TourAgency.Services
             if (nameParts.Length != 3)
             {
                 message = "ПІБ має складатися з трьох слів (Прізвище Ім'я По батькові)!";
+                return false;
+            }
+            var nameRegex = new Regex(@"^[А-Яа-яЁёЇїІіЄєҐґ'A-Za-z ]+$");
+
+            if (!nameRegex.IsMatch(name))
+            {
+                message = "ПІБ може містити тільки літери!";
                 return false;
             }
             var phoneRegex = new Regex(@"^\+\d{12}$");

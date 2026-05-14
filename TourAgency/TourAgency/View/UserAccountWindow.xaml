@@ -4,14 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Мій Аккаунт" Height="640" Width="400"
+        Title="Мій Аккаунт" Height="680" Width="420"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
         Background="#F1F8E9">
+
     <Window.Resources>
-        <!-- Конвертер для перемикання видимості панелей -->
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
 
-        <!-- Загальний стиль для кнопок -->
         <Style x:Key="ModernButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="14"/>
@@ -39,7 +38,6 @@
             </Setter>
         </Style>
 
-        <!-- Стиль кнопки закриття (контурна) -->
         <Style x:Key="CloseButtonStyle" TargetType="Button" BasedOn="{StaticResource ModernButtonStyle}">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Foreground" Value="#2E7D32"/>
@@ -66,32 +64,25 @@
     </Window.Resources>
 
     <Grid>
-        <Border Background="White" Margin="25" CornerRadius="20">
+        <Border Background="White" Margin="25" CornerRadius="25">
             <Border.Effect>
-                <DropShadowEffect BlurRadius="20" ShadowDepth="0" Opacity="0.1" Color="#1B5E20"/>
+                <DropShadowEffect BlurRadius="25" ShadowDepth="0" Opacity="0.1" Color="#1B5E20"/>
             </Border.Effect>
 
-            <Grid Margin="20">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="20" VerticalAlignment="Top">
 
-                    <!-- Секція для неавторизованого користувача (Гість) -->
-                    <StackPanel Visibility="{Binding IsNotLoggedIn, Converter={StaticResource BoolToVis}}">
-                        <TextBlock Text="🌍" FontSize="45" HorizontalAlignment="Center" Margin="0,0,0,15"/>
-
+                    <StackPanel Visibility="{Binding IsNotLoggedIn, Converter={StaticResource BoolToVis}}" Margin="0,50,0,0">
+                        <TextBlock Text="🌍" FontSize="50" HorizontalAlignment="Center" Margin="0,0,0,15"/>
                         <TextBlock Text="ПОЧНІТЬ СВОЮ ПОДОРОЖ" 
                                    FontSize="16" FontWeight="Bold" Foreground="#2E7D32"
-                                   TextAlignment="Center" TextWrapping="Wrap"
-                                   HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                                   TextAlignment="Center" Margin="0,0,0,30"/>
 
                         <Button Content="Увійти" 
                                 Command="{Binding OpenLoginCommand}"
                                 Style="{StaticResource ModernButtonStyle}"
                                 Height="45" Width="220" Margin="0,0,0,12"
-                                Background="#4CAF50">
-                            <Button.Effect>
-                                <DropShadowEffect BlurRadius="8" ShadowDepth="2" Opacity="0.2" Color="#1B5E20"/>
-                            </Button.Effect>
-                        </Button>
+                                Background="#4CAF50"/>
 
                         <Button Content="Створити аккаунт" 
                                 Command="{Binding RegisterCommand}"
@@ -99,45 +90,78 @@
                                 Height="45" Width="220"
                                 Background="#81C784"/>
                     </StackPanel>
-                    <StackPanel Visibility="{Binding IsLoggedIn, Converter={StaticResource BoolToVis}}">
-                        <Border Width="70" Height="70" CornerRadius="35" Background="#C8E6C9" Margin="0,20,0,5" HorizontalAlignment="Center">
-                            <TextBlock Text="👤" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
 
-                        <TextBlock Text="Раді вас бачити," FontSize="14" Foreground="#66BB6A" HorizontalAlignment="Center"/>
+                    <StackPanel Visibility="{Binding IsLoggedIn, Converter={StaticResource BoolToVis}}">
+
+                        <Border Width="80" Height="80" CornerRadius="40" Background="#C8E6C9" Margin="0,10,0,10">
+                            <TextBlock Text="👤" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <TextBlock Text="Вітаємо," FontSize="14" Foreground="#66BB6A" HorizontalAlignment="Center"/>
                         <TextBlock Text="{Binding UserName}" 
                                    FontSize="22" FontWeight="Bold" Foreground="#1B5E20"
-                                   HorizontalAlignment="Center" Margin="0,0,0,25"/>
-                        <StackPanel Visibility="{Binding IsProfileIncomplete, Converter={StaticResource BoolToVis}}" Margin="0,10,0,10">
-                            <Border Background="#FFF3E0" CornerRadius="12" Padding="15">
+                                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                        <StackPanel Visibility="{Binding ShowProfileWarning, Converter={StaticResource BoolToVis}}" Margin="0,0,0,20">
+                            <Border Background="#FFF3E0" CornerRadius="15" Padding="15">
                                 <StackPanel>
                                     <TextBlock Text="✈️ Майже готово!" FontWeight="Bold" Foreground="#E65100" HorizontalAlignment="Center"/>
                                     <TextBlock Text="Додайте паспортні дані, щоб бронювати тури." 
-                           FontSize="12" Foreground="#EF6C00" TextAlignment="Center" TextWrapping="Wrap" Margin="0,5"/>
+                       FontSize="12" Foreground="#EF6C00" TextAlignment="Center" TextWrapping="Wrap" Margin="0,5"/>
                                     <Button Content="Заповнити профіль" 
-                        Command="{Binding OpenCompleteProfileCommand}"
-                        Style="{StaticResource ModernButtonStyle}"
-                        Background="#FF9800" Height="40" Margin="0,10,0,0"/>
+                    Command="{Binding OpenCompleteProfileCommand}"
+                    Style="{StaticResource ModernButtonStyle}"
+                    Background="#FF9800" Height="40" Margin="0,5,0,0"/>
                                 </StackPanel>
                             </Border>
+                        </StackPanel>
+
+                        <StackPanel Visibility="{Binding IsProfileFilled, Converter={StaticResource BoolToVis}}">
+                            <Grid Margin="0,10,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="15"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button Grid.Column="0" 
+                                        Command="{Binding OpenFullInfoCommand}"
+                                        Background="#81C784" 
+                                        Height="70" 
+                                        Style="{StaticResource ModernButtonStyle}">
+                                    <StackPanel>
+                                        <TextBlock Text="📄" FontSize="20" HorizontalAlignment="Center"/>
+                                        <TextBlock Text="Повна інфо" FontSize="11" FontWeight="Bold"/>
+                                    </StackPanel>
+                                </Button>
+
+                                <Button Grid.Column="2" 
+                                        Command="{Binding OpenMyToursCommand}"
+                                        Background="#4CAF50" 
+                                        Height="70" 
+                                        Style="{StaticResource ModernButtonStyle}">
+                                    <StackPanel>
+                                        <TextBlock Text="🌍" FontSize="20" HorizontalAlignment="Center"/>
+                                        <TextBlock Text="Мої тури" FontSize="11" FontWeight="Bold"/>
+                                    </StackPanel>
+                                </Button>
+                            </Grid>
                         </StackPanel>
 
                         <Button Content="Вийти з профілю" 
                                 Command="{Binding LogoutCommand}"
                                 Style="{StaticResource ModernButtonStyle}"
                                 Height="45" Width="220"
-                                Background="#EF5350"/>
+                                Background="#EF5350" Margin="0,10,0,0"/>
                     </StackPanel>
 
-                    
                     <Button Content="Закрити" 
                             Command="{Binding CloseCommand}" 
                             CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
                             Style="{StaticResource CloseButtonStyle}"
-                            Height="35" Width="110" Margin="0,30,0,0"/>
+                            Height="35" Width="110" Margin="0,30,0,10"/>
 
                 </StackPanel>
-            </Grid>
+            </ScrollViewer>
         </Border>
     </Grid>
 </Window>
